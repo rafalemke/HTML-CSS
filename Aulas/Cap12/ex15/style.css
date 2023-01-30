@@ -1,15 +1,18 @@
 @charset "UTF-8";
 
 body {
-    background-color: rgb(255, 255, 131);
+    background-color: rgb(214, 224, 116);
     font-family: Arial, Helvetica, sans-serif;
      }
      h1 {
-        color: maroon; background-color: goldenrod;
+        color: maroon; background-color: rgb(109, 99, 73);
     }
      h2 {
-        color: darkred;
+        color: rgb(38, 26, 194);
     }
      p {
         text-align: justify;
     }
+     hr {
+        color: rgb(13, 241, 5);
+     }
