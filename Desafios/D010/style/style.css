@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    background-color: #CA4141;
+}
+
+header {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: white;
+    padding: 1px;
+    height:125px;
+
+}
+header > h1 {
+    text-align: center;
+    color: #401414;
+    font: bolder 38px arial;
+}
+header > p {
+    text-align:end;
+    padding-left: 50%;
+    padding-right: 10px;
+    font: bold 12px arial;
+    color: #401414;
+}
