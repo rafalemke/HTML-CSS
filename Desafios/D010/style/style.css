@@ -24,6 +24,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    
 }
 body {
     background-color: var(--cor0);
@@ -32,36 +33,108 @@ body {
 
 header {
     
-    background-color: var(--cor4);
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+
+    
     
 
 }
 header > h1 {
     
     color: white;
-    font: bolder 38px arial;
+    font: normal 3em arial;
     font-family: var(--fonte-destaque);
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+    
+    
 }
+
 main h1 {
     color: var(--cor5);
     font-family: var(--fonte-android);
+    padding-bottom: 20px;
 }
 main h2 {
     font-family: var(--fonte-android);
 }
 header > p {
     
-    
-    font: bold 12px arial;
+    font-family: var(--fonte-padrao);
+    font: light 1.2em arial;
     color: white;
+    max-width: 500px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 nav {
     background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.774);
+    
+}
+nav a {
+    
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+nav a:hover {
+    background-color: var(--cor3);
+    color: var(--cor5);
 }
 main {
     background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.603);
+    margin-bottom: 30px;
+    border-radius: 0px 0px 10px 10px;
+    text-align: justify;
+}
+main h2 {
+    padding-bottom: 15px;
+}
+main img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+main img.pequena {
+    width: 50%;
+    margin: auto;
+    display: block;
+    padding-bottom: 10px;
+} 
+main  ul {
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+main p {
+    padding-bottom: 10px;
 }
 footer {
     background-color: var(--cor5);
     color: white;
+    max-width: 1040px;
+    margin: auto;
+    border-radius: 5px 5px 0px 0px;
+    
+}
+footer p {
+    padding: 3px 20px;
+    
+}
+footer a:hover {
+    color: rgb(84, 84, 243);
+    font-weight: bolder;
 }
