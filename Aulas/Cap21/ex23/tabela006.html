@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 80%;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+       }
+       th, td {
+        border: 1px solid black;
+        padding: 8px;
+       }
+       .destaque {
+        background-color: antiquewhite;
+       }
+       .cnome {
+        background-color: antiquewhite;
+       }
+       .csexoidade {
+        background-color: red;
+       }
+       .cprof {
+        background-color: rgb(205, 207, 47);
+       }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexoidade" span="2">
+            
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Fernanda Andrade</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Roberto Braga</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Médico</td>
+        </tr>
+        <tr>
+            <td>Marcela Lopes</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Alberto lira</td>
+            <td>M</td>
+            <td>45</td>
+            <td>Contador</td>
+        </tr>
+        <tr>
+            <td>João Pedro</td>
+            <td>M</td>
+            <td>33</td>
+            <td>Motorista</td>
+        </tr>
+    </table>
+</body>
+</html>
