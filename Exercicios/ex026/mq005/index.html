@@ -8,11 +8,12 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu site</h1>
-        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
         <menu id="menu">
             <ul>
                 <li><a href="#">Opção 1</a></li>
@@ -40,6 +41,14 @@
                 menu.style.display = 'block'
             }
 
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                menu.style.display = 'block'
+            } else {
+                menu.style.display = 'none'
+            }
         }
     </script>
 </body>
